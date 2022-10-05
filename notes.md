@@ -1,5 +1,6 @@
 * compressed images online
-* installed imagemin and minified images
+* installed imagemin and minified images 
+* command for future ref images/* --out-dir=build
 * changed lang to english
 * fixed nav on page 2
 * removed empty nav link p1 and p2

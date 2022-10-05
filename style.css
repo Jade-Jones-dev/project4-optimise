@@ -13,6 +13,7 @@ button {
     outline: none!important;
 }
 
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -650,8 +651,8 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+    font-weight: 600;
+    color: #767676!important;
 }
 
 .container {
@@ -678,6 +679,7 @@ a {
 
 p {
     font-size: 16px;
+    font-weight: 600;
 }
 
 .tight-width-whitespace {
@@ -809,7 +811,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #d74009!important;
 }
 
 .ltc-atomic-tangerine:hover {
