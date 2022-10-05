@@ -19,3 +19,5 @@
 * 883		Value Error : padding-right constant(safe-area-inset-right) is not a padding-right value : constant(safe-area-inset-right)
 * 893		Value Error : padding-left constant(safe-area-inset-left) is not a padding-left value : constant(safe-area-inset-left)
 * 894		Value Error : padding-right constant(safe-area-inset-right) is not a padding-right value : constant(safe-area-inset-right)
+* changed color contrast on text buttons
+* generated report on accessibility issues
