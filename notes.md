@@ -26,4 +26,5 @@
 * -added robots for indexing
 * -added titles to first and second page
 * -fixed typo freelance on page 2
+* - added labels, fixed input504- it is not email it is text input
 * removed &nbsp; &rsquo; unicode as it is not necessary
