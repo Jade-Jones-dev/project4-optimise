@@ -7,6 +7,18 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+#tag-line{
+    font-size: 36px;
+}
+
+#tag-line-1{
+    font-size: 36px;
+}
+
+#tag-line-p{
+    font-weight: 400;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;

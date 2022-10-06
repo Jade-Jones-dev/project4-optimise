@@ -31,3 +31,4 @@
 * changed h1for seo
 * removed additional h1 and changed to h2
 * p2 removed hidden keywords in header
+* deleted image files that were text as these will help indexing seo, also they were not displayng correctly on mobile
