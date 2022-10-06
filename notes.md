@@ -25,3 +25,5 @@
 * -removed keywords in meta, they are no longer relevant to seo
 * -added robots for indexing
 * -added titles to first and second page
+* -fixed typo freelance on page 2
+* removed &nbsp; &rsquo; unicode as it is not necessary
