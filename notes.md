@@ -28,3 +28,6 @@
 * -fixed typo freelance on page 2
 * - added labels, fixed input504- it is not email it is text input
 * removed &nbsp; &rsquo; unicode as it is not necessary
+* changed h1for seo
+* removed additional h1 and changed to h2
+* p2 removed hidden keywords in header
