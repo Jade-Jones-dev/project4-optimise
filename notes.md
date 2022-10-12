@@ -11,15 +11,6 @@
 * -removed all the seo links at the bottom of the page
 * -removed all the hidden keywords
 * bl-added aria labels to social links
-* -removed stray div tag
-* 857		Deprecated media feature min-device-width. For guidance, see the Deprecated Media Features section in the current Media Queries specification.
-* 857		Deprecated media feature max-device-width. For guidance, see the Deprecated Media Features section in the current Media Queries specification.
-* 863		Deprecated media feature min-device-width. For guidance, see the Deprecated Media Features section in the current Media Queries specification.
-* 863		Deprecated media feature max-device-width. For guidance, see the Deprecated Media Features section in the current Media Queries specification.
-* 882		Value Error : padding-left constant(safe-area-inset-left) is not a padding-left value : constant(safe-area-inset-left)
-* 883		Value Error : padding-right constant(safe-area-inset-right) is not a padding-right value : constant(safe-area-inset-right)
-* 893		Value Error : padding-left constant(safe-area-inset-left) is not a padding-left value : constant(safe-area-inset-left)
-* 894		Value Error : padding-right constant(safe-area-inset-right) is not a padding-right value : constant(safe-area-inset-right)
 * -changed color contrast on text buttons
 * -generated report on accessibility issues
 * -removed keywords in meta, they are no longer relevant to seo
