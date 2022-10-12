@@ -1,5 +1,5 @@
 * -compressed images online
-* -installed imagemin and minified images 
+* -installed imagemin and minified images
 * -command for future ref imagemin img/* --out-dir=img
 * -changed lang to english
 * -fixed nav on page 2
@@ -10,7 +10,7 @@
 * -removed blocs js as it was causing issue
 * -removed all the seo links at the bottom of the page
 * -removed all the hidden keywords
-* -added aria labels to social links
+* bl-added aria labels to social links
 * -removed stray div tag
 * 857		Deprecated media feature min-device-width. For guidance, see the Deprecated Media Features section in the current Media Queries specification.
 * 857		Deprecated media feature max-device-width. For guidance, see the Deprecated Media Features section in the current Media Queries specification.
@@ -32,3 +32,5 @@
 * removed additional h1 and changed to h2
 * p2 removed hidden keywords in header
 * deleted image files that were text as these will help indexing seo, also they were not displayng correctly on mobile
+
+* need to make the amendmenst discussed in meeting
