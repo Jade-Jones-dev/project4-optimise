@@ -7,7 +7,6 @@
 * -changed link in nav to contact me
 * -changed paragraph font size
 * -changed text to white on blue background containers
-* -removed blocs js as it was causing issue
 * -removed all the seo links at the bottom of the page
 * -removed all the hidden keywords
 * bl-added aria labels to social links
@@ -25,3 +24,5 @@
 * deleted image files that were text as these will help indexing seo, also they were not displayng correctly on mobile
 
 * need to make the amendmenst discussed in meeting
+* reinstated blocs
+* changed page2
