@@ -12,11 +12,11 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 	
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jquery.touchSwipe.js"></script>
-	<script src="./js/gmaps.js"></script>
+	<script src="./js/jquery-2.1.0.js" defer></script>
+	<script src="./js/bootstrap.js" defer></script>
+	<script src="./js/blocs.js" defer></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
+	
 
     <title>GoMike designs Atlanta Web design company</title>
 <!-- Analytics -->
@@ -26,10 +26,10 @@
 </head>
 <body>
 <!-- Main container -->
-<div class="page-container">
+<main class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
+<header class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
@@ -55,11 +55,11 @@
 			</div>
 		</nav>
 	</div>
-</div>
+</header>
 <!-- bloc-0 END -->
 
 <!-- bloc-1-hero -->
-<div class="bloc bgc-dark-slate-blue bg-atlanta-20made-20sign d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
+<section class="bloc bgc-dark-slate-blue bg-atlanta-20made-20sign d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
@@ -68,16 +68,16 @@
 					GoMike Designs Atlanta web design
 				</h1>
 				<div class="text-center">
-					<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
+					<a href="contact.html" title="contact me" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <!-- bloc-1-hero END -->
 
 <!-- bloc-2-services -->
-<div class="bloc bgc-white l-bloc" id="bloc-2-services">
+<section class="bloc bgc-white l-bloc" id="bloc-2-services">
 	<div class="container bloc-md">
 		<div class="row">
 			<div class="col-sm-12 text-center">
@@ -91,9 +91,9 @@
 					<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg">
 					</span>
 				</div>
-				<h2 class="mg-md text-center service-header">
+				<h3 class="mg-md text-center service-header">
 					Website Design
-				</h2>
+				</h3>
 				<p class="text-center ">
 					Whether you have a website that needs a refresh or you&rsquo;re starting from scratch, let&rsquo;s make a website that you can be proud of.
 				</p>
@@ -103,9 +103,9 @@
 					<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg">
 					</span>
 				</div>
-				<h2 class="mg-md text-center service-header">
+				<h3 class="mg-md text-center service-header">
 					&nbsp;Website Strategy
-				</h2>
+				</h3>
 				<p class="text-center ">
 					Rather than suggesting trendy designs, I&rsquo;ll work with you to understand your business goals and make sure we design to help you reach those goals.<br>
 				</p>
@@ -115,9 +115,9 @@
 					<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg">
 					</span>
 				</div>
-				<h2 class="mg-md text-center service-header">
+				<h3 class="mg-md text-center service-header">
 					Logo Design
-				</h2>
+				</h3>
 				<p class="text-center ">
 					With your business representing Atlanta, your logo should shine. I&rsquo;ll work with you to create logo and brand identity that will impress people you meet in town and online.
 				</p>
@@ -127,18 +127,18 @@
 			<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
 				<!-- deleted <img alt="web agency, web design, logo design " src="img/quote.png" />-->
 				
-				<p id="tag-line-p">
-					<em>"Mike's an awesome <strong>freelance web designer</strong>! He captured the essence of our company in our<br> website and has helped us <strong>double our online sales</strong> for our shop in <br>Atlanta."</em><br>
-					Taylor Cook, project manager Apple Delights
-				</p>
+				<blockquote id="tag-line-p">
+					<em>"Mike's an awesome <strong>freelance web designer</strong>! He captured the essence of our company in our website and has helped us <strong>double our online sales</strong> for our shop in Atlanta."</em>
+				</blockquote>
+				<p>Taylor Cook, project manager Apple Delights</p>
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <!-- bloc-2-services END -->
 
 <!-- bloc-3-what-i-do -->
-<div class="bloc tc-white bgc-atomic-tangerine bloc-bg-texture texture-paper b-parallax bg-atlanta-20made-20sign-20orange d-bloc" id="bloc-3-what-i-do">
+<section class="bloc tc-white bgc-atomic-tangerine bloc-bg-texture texture-paper b-parallax bg-atlanta-20made-20sign-20orange d-bloc" id="bloc-3-what-i-do">
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace black-background">
 			<div class="col-sm-12">
@@ -146,16 +146,18 @@
 					I love Atlanta, my hometown, and want to see all Atlanta businesses succeed. I help by offering web design services that help local businesses stand out and attract new customers online.<br>
 				</h2>
 				<p class="text-center white">
-					I'm super excited you&rsquo;re here. I partner with creative entrepreneurs and local Atlanta business that are either starting or needing to renew their website to attract business. Whether you need a complete brand identity or a redesign of your website, I&rsquo;ll work with you to create something that looks great and structured to be found on Google.<br><br><a class="ltc-white bold-link" href="contact.html">Are you ready, contact me</a><br>
+					I'm super excited you&rsquo;re here. I partner with creative entrepreneurs and local Atlanta business that are either starting or needing to renew their website to attract business. Whether you need a complete brand identity or a redesign of your website, I&rsquo;ll work with you to create something that looks great and structured to be found on Google.<br>
+					<br>
+					<a href="contact.html" title="contact me" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine">Contact me</a>
 				</p>
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <!-- bloc-3-what-i-do END -->
 
 <!-- bloc-4-portfolio -->
-<div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
+<section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12 text-center">
@@ -204,11 +206,11 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <!-- bloc-4-portfolio END -->
 
 <!-- bloc-5-cta -->
-<div class="bloc bgc-dark-slate-blue bg-atlanta-20made-20sign d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
+<section class="bloc bgc-dark-slate-blue bg-atlanta-20made-20sign d-bloc bloc-bg-texture texture-paper" id="bloc-5-cta">
 	<div class="container bloc-lg">
 		<div class="row">
 			<h2 class="mg-md text-center tc-white">
@@ -219,11 +221,11 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <!-- bloc-5-cta END -->
 
 <!-- Footer - bloc-8 -->
-<div class="bloc bgc-dark-slate-blue d-bloc" id="bloc-8">
+<footer class="bloc bgc-dark-slate-blue d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
@@ -268,10 +270,10 @@
 			</div>
 		</div>
 	</div>
-</div>
+</footer>
 <!-- Footer - bloc-8 END -->
 
-
+</main>
 <!-- Main container END -->
 </body>
 </html>
