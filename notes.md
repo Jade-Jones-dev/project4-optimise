@@ -26,3 +26,9 @@
 * need to make the amendmenst discussed in meeting
 * reinstated blocs
 * changed page2
+
+// add article on sections
+// alt keywords need removig
+// add audit and optimisation report
+// put title follow us on twitter and other socials
+// header and footer need moving outside of main
