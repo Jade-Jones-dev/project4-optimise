@@ -17,14 +17,13 @@
 * -added titles to first and second page
 * -fixed typo freelance on page 2
 * - added labels, fixed input504- it is not email it is text input
-* removed &nbsp; &rsquo; unicode as it is not necessary
 * changed h1for seo
 * removed additional h1 and changed to h2
 * p2 removed hidden keywords in header
 * deleted image files that were text as these will help indexing seo, also they were not displayng correctly on mobile
-
-* need to make the amendmenst discussed in meeting
-* reinstated blocs
+* minified js
+* changed to semantic html
+* added defer to js files
 * changed page2
 
 // to do
